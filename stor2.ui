@@ -1,0 +1,1740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>847</width>
+    <height>589</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Dubai</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>edfina.ico</normaloff>edfina.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QFrame{
+background-color: rgb(170, 170, 255);
+	font: 16pt &quot;Arabic Typesetting&quot;;
+
+}
+QPushButoon{
+font: 75 14pt &quot;Akhbar MT&quot;;
+background-color: rgb(85, 0, 255);
+color: rgb(255, 255, 255);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_5">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="layoutDirection">
+       <enum>Qt::RightToLeft</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(197, 203, 255);</string>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::North</enum>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::Triangular</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="elideMode">
+       <enum>Qt::ElideMiddle</enum>
+      </property>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>الصفحة الرئيسيه</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_7">
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout_6">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_29">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>75</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>MS Shell Dlg 2</family>
+              <pointsize>12</pointsize>
+              <weight>9</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+            </property>
+            <property name="text">
+             <string>برنامج اداره مخازن هندسه قناطر ادفينا</string>
+            </property>
+            <property name="textFormat">
+             <enum>Qt::RichText</enum>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,1,0">
+            <item>
+             <widget class="QFrame" name="frame_3">
+              <property name="font">
+               <font>
+                <family>Arabic Typesetting</family>
+                <pointsize>16</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="layoutDirection">
+               <enum>Qt::LeftToRight</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(85, 85, 255);</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_3">
+               <item row="3" column="1">
+                <widget class="QLabel" name="label_16">
+                 <property name="text">
+                  <string>الوحدة</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLabel" name="label_13">
+                 <property name="font">
+                  <font>
+                   <family>Arabic Typesetting</family>
+                   <pointsize>16</pointsize>
+                   <weight>50</weight>
+                   <italic>false</italic>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>نوع الصنف</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLineEdit" name="lineEdit_7">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Aharoni</family>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QLabel" name="label_14">
+                 <property name="text">
+                  <string>اسم الصنف</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="11" column="0">
+                <widget class="QLineEdit" name="lineEdit_17">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QComboBox" name="comboBox_6">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>متر</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>لتر</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>لفة</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>عدد</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>كجم</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>علبة</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>جركن</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="10" column="1">
+                <widget class="QLabel" name="label_35">
+                 <property name="text">
+                  <string>التاريخ</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="0">
+                <widget class="QLineEdit" name="lineEdit_8">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="placeholderText">
+                  <string>ادخل ارقام فقط</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="11" column="1">
+                <widget class="QLabel" name="label_34">
+                 <property name="text">
+                  <string>المصدر</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QComboBox" name="comboBox_5">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Dubai</family>
+                   <pointsize>9</pointsize>
+                   <weight>50</weight>
+                   <italic>false</italic>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>دهانات</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>مهمات راكدة</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>السباكة</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>الكهرباء</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>مواد بتروليه</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>البوابات والمعدات</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>دفاتر وجناين</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>النجارة</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>الخردة</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>مستعملة</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="5" column="1">
+                <widget class="QLabel" name="label_33">
+                 <property name="text">
+                  <string>حاله الصنف</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="9" column="1">
+                <widget class="QLabel" name="label_36">
+                 <property name="text">
+                  <string>رقم الاذن</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="14" column="0" colspan="2">
+                <widget class="QPushButton" name="pushButton_3">
+                 <property name="styleSheet">
+                  <string notr="true">font: 16pt &quot;Arabic Typesetting&quot;;
+background-color:rgb(103, 111, 255);
+color:rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>صرف</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="15" column="1">
+                <widget class="QLabel" name="label_17">
+                 <property name="text">
+                  <string>الرصيد</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="15" column="0">
+                <widget class="QLineEdit" name="lineEdit_9">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial</family>
+                   <pointsize>12</pointsize>
+                   <weight>9</weight>
+                   <italic>false</italic>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 12pt &quot;Arial&quot;;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="9" column="0">
+                <widget class="QLineEdit" name="lineEdit_18">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="placeholderText">
+                  <string>ادخل ارقام فقط</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="10" column="0">
+                <widget class="QDateEdit" name="dateEdit_3">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="minimumDate">
+                  <date>
+                   <year>2025</year>
+                   <month>1</month>
+                   <day>1</day>
+                  </date>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="0">
+                <widget class="QComboBox" name="comboBox_12">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>جديد</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>مستعمل</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>منتهي</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>خردة</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="0" column="0" colspan="2">
+                <widget class="QLabel" name="label_12">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(156, 161, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>اذن صرف</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="1">
+                <widget class="QLabel" name="label_15">
+                 <property name="text">
+                  <string>الكمية</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QFrame" name="frame_2">
+              <property name="layoutDirection">
+               <enum>Qt::LeftToRight</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(85, 85, 255);</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_2">
+               <item row="9" column="1">
+                <widget class="QLabel" name="label_19">
+                 <property name="text">
+                  <string>رقم الاذن</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="0">
+                <widget class="QLineEdit" name="lineEdit_5">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="placeholderText">
+                  <string>ادخل ارقام فقط</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QLabel" name="label_8">
+                 <property name="text">
+                  <string>اسم الصنف</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="11" column="1">
+                <widget class="QLabel" name="label_21">
+                 <property name="text">
+                  <string>المصدر</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="0">
+                <widget class="QComboBox" name="comboBox_4">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>متر</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>لتر</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>لفة</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>عدد</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>كجم</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>علبة</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>جركن</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="13" column="0" colspan="2">
+                <widget class="QPushButton" name="pushButton_2">
+                 <property name="styleSheet">
+                  <string notr="true">font: 16pt &quot;Arabic Typesetting&quot;;
+background-color:rgb(103, 111, 255);
+color:rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>اضافة</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="11" column="0">
+                <widget class="QLineEdit" name="lineEdit_12">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="14" column="0">
+                <widget class="QLineEdit" name="lineEdit_6">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>13</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QLineEdit" name="lineEdit_4">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="14" column="1">
+                <widget class="QLabel" name="label_11">
+                 <property name="text">
+                  <string>الرصيد</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QComboBox" name="comboBox_3">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Dubai</family>
+                   <pointsize>9</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>دهانات</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>مهمات راكدة</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>السباكة</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>الكهرباء</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>مواد بتروليه</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>البوابات والمعدات</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>دفاتر وجناين</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>النجارة</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>الخردة</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>مستعملة</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLabel" name="label_7">
+                 <property name="text">
+                  <string>نوع الصنف</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0" colspan="2">
+                <widget class="QLabel" name="label_6">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(156, 161, 255);
+border-radius:15%</string>
+                 </property>
+                 <property name="text">
+                  <string>اذن اضافة</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="10" column="1">
+                <widget class="QLabel" name="label_20">
+                 <property name="text">
+                  <string>التاريخ</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="0">
+                <widget class="QComboBox" name="comboBox_8">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>جديد</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>مستعمل</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>منتهي</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>خردة</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="6" column="1">
+                <widget class="QLabel" name="label_25">
+                 <property name="text">
+                  <string>حاله الصنف</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="1">
+                <widget class="QLabel" name="label_9">
+                 <property name="text">
+                  <string>الوحدة</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="1">
+                <widget class="QLabel" name="label_10">
+                 <property name="text">
+                  <string>الكمية</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="9" column="0">
+                <widget class="QLineEdit" name="lineEdit_10">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="placeholderText">
+                  <string>ادخل ارقام فقط</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="10" column="0">
+                <widget class="QDateEdit" name="dateEdit">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="maximumDateTime">
+                  <datetime>
+                   <hour>23</hour>
+                   <minute>59</minute>
+                   <second>59</second>
+                   <year>9999</year>
+                   <month>12</month>
+                   <day>30</day>
+                  </datetime>
+                 </property>
+                 <property name="minimumDate">
+                  <date>
+                   <year>2024</year>
+                   <month>1</month>
+                   <day>1</day>
+                  </date>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QFrame" name="frame">
+              <property name="layoutDirection">
+               <enum>Qt::LeftToRight</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(85, 85, 255);
+</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QGridLayout" name="gridLayout">
+               <item row="3" column="0">
+                <widget class="QLineEdit" name="lineEdit_2">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="3">
+                <widget class="QLabel" name="label_3">
+                 <property name="text">
+                  <string>اسم الصنف</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QComboBox" name="comboBox_2">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>متر</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>لتر</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>لفه</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>عدد</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>كجم</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>علبه</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>جركن</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="4" column="3">
+                <widget class="QLabel" name="label_4">
+                 <property name="text">
+                  <string>الوحدة</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="0">
+                <widget class="QComboBox" name="comboBox_7">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>جديد</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>مستعمل</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>منتهي</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>خردة</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="5" column="3">
+                <widget class="QLabel" name="label_18">
+                 <property name="text">
+                  <string>حاله الصنف</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0" colspan="4">
+                <widget class="QLabel" name="label">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(156, 161, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>اضافة صنف جديد</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="11" column="0" colspan="4">
+                <widget class="QPushButton" name="add_new_item_btn">
+                 <property name="styleSheet">
+                  <string notr="true">font: 16pt &quot;Arabic Typesetting&quot;;
+background-color:rgb(103, 111, 255);
+color:rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string>اضافة صنف جديد</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="3">
+                <widget class="QLabel" name="label_5">
+                 <property name="text">
+                  <string>الكمية</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="0">
+                <widget class="QLineEdit" name="lineEdit_3">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string>ادخل الكميه بالارقام</string>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="placeholderText">
+                  <string>ادخل ارقام فقط</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="8" column="3">
+                <widget class="QLabel" name="label_31">
+                 <property name="text">
+                  <string>رقم الاذن</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="8" column="0">
+                <widget class="QLineEdit" name="lineEdit_14">
+                 <property name="toolTip">
+                  <string>ادخل الكميه بالارقام</string>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="placeholderText">
+                  <string>ادخل ارقام فقط</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="9" column="0">
+                <widget class="QDateEdit" name="dateEdit_2">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="dateTime">
+                  <datetime>
+                   <hour>0</hour>
+                   <minute>0</minute>
+                   <second>0</second>
+                   <year>2025</year>
+                   <month>7</month>
+                   <day>1</day>
+                  </datetime>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QComboBox" name="comboBox">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Dubai</family>
+                   <pointsize>9</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>دهانات</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>مهمات راكدة</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>السباكة</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>الكهرباء</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>مواد بتروليه</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>البوابات والمعدات</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>دفاتر وجناين</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>النجارة</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>الخردة</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>مستعمله</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="1" column="3">
+                <widget class="QLabel" name="label_2">
+                 <property name="text">
+                  <string>نوع الصنف</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="9" column="3">
+                <widget class="QLabel" name="label_32">
+                 <property name="text">
+                  <string>التاريخ</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="10" column="3">
+                <widget class="QLabel" name="label_37">
+                 <property name="text">
+                  <string>المصدر</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="10" column="0">
+                <widget class="QLineEdit" name="lineEdit_15">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>عرض الاصناف</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_8">
+        <item row="0" column="0">
+         <widget class="QPushButton" name="pushButton_4">
+          <property name="styleSheet">
+           <string notr="true">font: 16pt &quot;Arabic Typesetting&quot;;
+background-color:rgb(103, 111, 255);
+color:rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>عرض الاصناف</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QComboBox" name="comboBox_9">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>دهانات</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>مهمات راكدة</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>السباكة</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>الكهرباء</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>مواد بتروليه</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>البوابات والمعدات</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>دفاتر وجناين</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>النجارة</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>الخردة</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>مستعمله</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_22">
+          <property name="text">
+           <string>نوع الاصناف للعرض</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0" colspan="3">
+         <widget class="QTableWidget" name="tableWidget">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>1</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>1180</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::CustomContextMenu</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="lineWidth">
+           <number>0</number>
+          </property>
+          <property name="sizeAdjustPolicy">
+           <enum>QAbstractScrollArea::AdjustToContents</enum>
+          </property>
+          <property name="cornerButtonEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="rowCount">
+           <number>0</number>
+          </property>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>117</number>
+          </attribute>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>117</number>
+          </attribute>
+          <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderStretchLastSection">
+           <bool>true</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>الكود</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>نوع الصنف</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>اسم الصنف</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>الوحدة</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>حالة الصنف</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>الكمية الابتدائيه</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>الرصيد الحالي</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>رقم الاذن</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>تاريخ الاضافه</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>المصدر</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>البحث عن اصناف</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="3" column="5">
+         <widget class="QPushButton" name="pushButton">
+          <property name="styleSheet">
+           <string notr="true">font: 16pt &quot;Arabic Typesetting&quot;;
+background-color:rgb(103, 111, 255);
+color:rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>مسح الحقول</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0" colspan="7">
+         <widget class="QTableWidget" name="tableWidget_2">
+          <property name="maximumSize">
+           <size>
+            <width>1180</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="sizeIncrement">
+           <size>
+            <width>1</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="baseSize">
+           <size>
+            <width>1</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::PreventContextMenu</enum>
+          </property>
+          <property name="midLineWidth">
+           <number>3</number>
+          </property>
+          <property name="sizeAdjustPolicy">
+           <enum>QAbstractScrollArea::AdjustToContentsOnFirstShow</enum>
+          </property>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>101</number>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>الكود</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>اسم الصنف</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>الكميه </string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>نوع الحركه</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>رقم الاذن</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>التاريخ</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>المصدر</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>الرصيد الحالي</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QComboBox" name="comboBox_10">
+          <property name="maximumSize">
+           <size>
+            <width>250</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>دهانات</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>مهمات راكدة</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>السباكة</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>الكهرباء</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>مواد بتروليه</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>البوابات والمعدات</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>دفاتر وجناين</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>النجارة</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>الخردة</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>مستعمله</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_26">
+          <property name="text">
+           <string>الكميه الابتدائيه</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QLabel" name="label_27">
+          <property name="text">
+           <string>الرصيد الحالي</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="4">
+         <widget class="QLineEdit" name="lineEdit_13">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="5">
+         <widget class="QPushButton" name="pushButton_5">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 16pt &quot;Arabic Typesetting&quot;;
+background-color:rgb(103, 111, 255);
+color:rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>بحث</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_24">
+          <property name="text">
+           <string>اسم الصنف</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="2">
+         <widget class="QLabel" name="label_28">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+color: rgb(85, 0, 0);
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+text-decoration: underline;</string>
+          </property>
+          <property name="text">
+           <string>حركه الصنف</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="4">
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_23">
+          <property name="text">
+           <string>شيت البحث</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="lineEdit_11">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_30">
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(85, 0, 0);
+font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Devaloped by Eng/ Eman Zaytoon</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>847</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
